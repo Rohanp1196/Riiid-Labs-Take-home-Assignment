@@ -15,9 +15,11 @@ Part of DevOps Engineering interview at Riiid Labs
 ## Steps Followed
 1. Configure AWS CLI locally
 2. Create a new S3 bucket to use it as the Terraform backend
-2. Provsion the infrastructure using Terraform by running the following commands
+3. Provsion the infrastructure using Terraform by running the following commands
 ```
 terraform init
 terraform apply
 ```
+4. Go the AWS console. Under API Gateway, you can the newly created HTTP API endpoint. 
+5. Inside the AWS console, under Lambda, you can see the newly create python Lambda function. 
 
