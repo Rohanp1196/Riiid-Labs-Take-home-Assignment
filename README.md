@@ -6,7 +6,7 @@ Part of DevOps Engineering interview at Riiid Labs
 2. AWS Lambda- A Python Lambda function to implement the business logic. Processing requests from the API Endpoint.
 3. AWS API Gateway- To host HTTP API endpoint. Integrating it with the Lambda function. 
 4. AWS S3- To the store the Terraform backend including the .tfstate files.
-5- Circle CI-  A CI/CD tool to automate the build and deploy process
+5. Circle CI-  A CI/CD tool to automate the build and deploy process
 
 ## Files
 1. lambda.py- The Lambda function file with the handler function
