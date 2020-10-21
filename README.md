@@ -35,12 +35,16 @@ The **tfstate** has been uploaded to the **S3 Bucket**
 
 ### To Provision the infrastructure ###
 Step A: Generating the terraform plan
+
 ------Waiting for Aproval-----
+
 Step B: Applying the terraform plan and storing the state in S3 Backend
 
 ### To Destroy the infrastructure ###
 Step C: Generating a Destroy plan
+
 ------Waiting for Aproval-----
+
 Step D: Destroying the infrastructure 
 
 
