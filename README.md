@@ -20,6 +20,7 @@ Part of DevOps Engineering interview at Riiid Labs
 terraform init
 terraform apply
 ```
+The **tfstate** has been uploaded to the **S3 Bucket**
 4. Go the AWS console. Under API Gateway, you can the newly created HTTP API endpoint. 
 5. Inside the AWS console, under Lambda, you can see the newly create python Lambda function. 
 
