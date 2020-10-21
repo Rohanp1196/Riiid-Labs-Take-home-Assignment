@@ -31,6 +31,8 @@ The **tfstate** has been uploaded to the **S3 Bucket**
 1. Any commit to the repository would trigger the CI pipleine on Circle CI
 2. It follows 4 steps as shown in the below figure:
 
+![Pipeline](/images/pipeline.png)
+
 ### To Provision the infrastructure ###
 Step A: Generating the terraform plan
 ------Waiting for Aproval-----
