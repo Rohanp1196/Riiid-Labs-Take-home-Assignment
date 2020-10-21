@@ -38,18 +38,18 @@ The **tfstate** has been uploaded to the **S3 Bucket**
 ![Pipeline](/images/pipeline.png)
 
 ### To Provision the infrastructure
-Step A: Generating the terraform plan for the infrastructure.
+Step A: **plan-apply** : Generating the terraform plan for the infrastructure. The 
 
 *------Waiting for Approval-----*
 
-Step B: Applying the terraform plan and storing the state in S3 Backend.
+Step B: **apply** : Applying the terraform plan and storing the state in S3 Backend.
 
 ### To Destroy the infrastructure
-Step C: Generating a Destroy plan.
+Step C: **plan-destroy** : Generating a Destroy plan.
 
 *------Waiting for Approval-----*
 
-Step D: Destroying the infrastructure.
+Step D: **destroy** : Destroying the infrastructure.
 
 ## Business Logic
 
