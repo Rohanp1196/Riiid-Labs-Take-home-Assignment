@@ -53,7 +53,7 @@ Step D: **destroy** : Destroying the infrastructure.
 
 ## Business Logic
 
-I was not being able to successfully implement the business logic required in the API. Although, I have done a different task:
+I have implemented a different business logic other than the one required in the API. Thus this is a different task, below is the functionality:
 ```
  base_url = 'https://hacker-news.firebaseio.com/v0/item/'
     answer = []
@@ -68,8 +68,8 @@ I was not being able to successfully implement the business logic required in th
         answer.append(ans)
     return answer
 ```
-Getting the dates of the first 10 articles on Hacker News. 
-
+Getting the dates of the first 10 articles on Hacker News through the API endpoint. 
+![Output](/images/output.png)
 
 
 
