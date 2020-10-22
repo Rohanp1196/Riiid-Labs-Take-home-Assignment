@@ -23,9 +23,12 @@ terraform init
 terraform apply
 ```
 The **tfstate** has been uploaded to the **S3 Bucket**
-
-4. Go the AWS console. Under API Gateway, you can the newly created HTTP API endpoint. 
-5. Inside the AWS console, under Lambda, you can see the newly create python Lambda function. 
+4. To destroy the infrastructure
+```
+terraform destroy
+```
+5. Go the AWS console. Under API Gateway, you can the newly created HTTP API endpoint. 
+6. Inside the AWS console, under Lambda, you can see the newly create python Lambda function. 
 
 ## Workflow (Automated through Circle CI)
 1. Create a Circle CI account.
@@ -44,7 +47,7 @@ Step A: **plan-apply** : Generating the terraform plan for the infrastructure. T
 
 Step B: **apply** : Applying the terraform plan and storing the state in S3 Backend.
 
-### To Destroy the infrastructure
+### To Destroy the infrastructure (Clean up)
 Step C: **plan-destroy** : Generating a Destroy plan.
 
 *------Waiting for Approval-----*
