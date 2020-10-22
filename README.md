@@ -23,6 +23,7 @@ terraform init
 terraform apply
 ```
 The **tfstate** has been uploaded to the **S3 Bucket**
+
 4. To destroy the infrastructure
 ```
 terraform destroy
