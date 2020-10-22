@@ -53,7 +53,7 @@ Step D: **destroy** : Destroying the infrastructure.
 
 ## Accessing the API Endpoint
 1. In the AWS Console, under API Gateway, select the API you created.
-2. From the $default stage, click on the URL to invoke it
+2. From the $default stage, select the invoke URL.
 3. This wuld trigger the Lambda funbction and you see the output in your browswer. 
 
 ## Business Logic
