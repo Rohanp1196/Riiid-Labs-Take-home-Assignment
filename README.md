@@ -3,8 +3,8 @@ Part of DevOps Engineering interview at Riiid Labs
 
 ## Tools/Technologies Used
 1. Terraform - To provision the AWS Infrastructure 
-2. AWS Lambda- A Python Lambda function to implement the business logic. Processing requests from the API Endpoint.
-3. AWS API Gateway- To host HTTP API endpoint. Integrating it with the Lambda function. 
+2. AWS Lambda- A Python Lambda function to implement the business logic. Processing requests from the API Endpoint. 
+3. AWS API Gateway- To host HTTP API endpoint. Integrating it with the Lambda function. Acting as a Trigger to it. 
 4. AWS S3- To the store the Terraform backend including the .tfstate files.
 5. Circle CI-  A CI/CD tool to automate the build and deploy process
 
@@ -50,6 +50,11 @@ Step C: **plan-destroy** : Generating a Destroy plan.
 *------Waiting for Approval-----*
 
 Step D: **destroy** : Destroying the infrastructure.
+
+## Accessing the API Endpoint
+1. In the AWS Console, under API Gateway, select the API you created.
+2. From the $default stage, click on the URL to invoke it
+3. This wuld trigger the Lambda funbction and you see the output in your browswer. 
 
 ## Business Logic
 
